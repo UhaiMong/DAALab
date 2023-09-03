@@ -46,7 +46,7 @@ int main()
 
     quickSort(arr, 0, n - 1);
 
-    cout << "Sorted array: ";
+    cout << "The Array after sorted: ";
     for (int num : arr)
     {
         cout << num << " ";
