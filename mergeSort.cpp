@@ -37,7 +37,6 @@ void mergeSort(int l, int r)
     // base case
     if (r == l)
         return;
-    // calling recursion
     int mid = (l + r) / 2;
     mergeSort(l, mid);
     mergeSort(mid + 1, r);

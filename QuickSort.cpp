@@ -34,8 +34,15 @@ void quickSort(vector<int> &arr, int low, int high)
 
 int main()
 {
-    vector<int> arr = {12, 7, 11, 8, 5, 6, 10};
-    int n = arr.size();
+    vector<int> arr;
+    int n;
+    cin>>n;
+    for(int i = 0; i<n; i++)
+    {
+        int val;
+        cin>>val;
+        arr.push_back(val);
+    }
 
     cout << "Original array: ";
     for (int num : arr)
